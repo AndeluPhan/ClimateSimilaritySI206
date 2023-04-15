@@ -4,7 +4,7 @@ import sqlite3
 from bs4 import BeautifulSoup
 
 '''
-Fetch data from apis
+Webscrape from wikipedia U.S Cities (population, lat, lon)
 '''
 def getCities(conn, cur):
     '''
@@ -53,8 +53,21 @@ def getCities(conn, cur):
 
     conn.commit()
 
-def getClimateData():
-    pass
+
+
+
+def getClimateData(cur):
+    # get climate normals (30 years of data per city)
+
+    # main attributes: 
+        # month -> (avg temp, min temp, max temp, monthly precip_sum, monthly shortwave_radiation_sum, monthly max wind speed)
+
+    # Needs 6 tables, 1 for each attribute. Rows are the cities, cols are the months so (12 cols and 300+ rows)
+    
+    cur.execute("""SELECT * FROM population""")
+    rows = cur.fetchall()
+    for row in rows:
+        print(row)
 
 
 
@@ -62,12 +75,7 @@ def main():
     conn = sqlite3.connect("climateProject.db")
     cur = conn.cursor()
     # getCities(conn, cur)
-    cur.execute("""
-        SELECT * FROM population
-    """)
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
+    getClimateData(cur)
 
     conn.close()
 
