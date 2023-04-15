@@ -63,16 +63,35 @@ def getClimateData(cur):
     # https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2003-03-27&end_date=2023-04-10&daily=apparent_temperature_max,apparent_temperature_min,precipitation_sum,windspeed_10m_max,shortwave_radiation_sum&timezone=America/New_York
 
     # main attributes: 
-        # month -> (min apparent temp, max app temp, monthly precip_sum, monthly shortwave_radiation_sum, monthly max wind speed)
+        # month -> "(min apparent temp, max app temp, monthly precip_sum, monthly shortwave_radiation_sum, monthly max wind speed)"
 
-    # 1 table, city -> 12 cols, one col represents 1 month, it has array 
-    # Needs 5 tables, 1 for each attribute. Rows are the cities, cols are the months so (12 cols and 300+ rows)
-    
+    # 1 table, city -> 12 cols, one col represents 1 month, 1 cell rep
+    # store as a string. 
 
     cur.execute("""SELECT * FROM population""")
     rows = cur.fetchall()
     for row in rows:
         print(row)
+
+    # each cell in the database pertains to a string serialized "[0.1, 0.2, 0.4, ...]"" representings t_max, t_min, etc...
+    sql = """
+        CREATE TABLE IF NOT EXISTS climateData (
+            city_id INTEGER PRIMARY KEY, 
+            january TEXT,
+            february TEXT,
+            march TEXT,
+            april TEXT,
+            may TEXT,
+            june TEXT,
+            july TEXT,
+            august TEXT,
+            september TEXT,
+            october TEXT,
+            november TEXT,
+            december TEXT
+        )
+    """
+    cur.execute(sql)
 
 
 
@@ -87,7 +106,11 @@ def main():
     else:
         getCities(conn, cur)
 
+    
+
     # cur.execute("DROP TABLE population")
+    # cur.execute("DROP TABLE climateData")
+
 
     conn.close()
 
