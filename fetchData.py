@@ -28,7 +28,11 @@ def getCities(conn, cur):
     city_table = soup.find_all("table", class_="wikitable")[1]
     table_body = city_table.find("tbody")
     rows = table_body.find_all("tr")[1:]
-    for row in rows:
+
+    cur.execute("SELECT * FROM population")
+    start = len(cur.fetchall())
+    end = len(rows) if len(rows) < start + 25 else start + 25
+    for row in rows[start:end]:
         data_elems = row.find_all("td")
         city = data_elems[0].get_text()
 
@@ -53,17 +57,18 @@ def getCities(conn, cur):
 
     conn.commit()
 
-
-
-
 def getClimateData(cur):
     # get climate normals (30 years of data per city)
+    
+    # https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2003-03-27&end_date=2023-04-10&daily=apparent_temperature_max,apparent_temperature_min,precipitation_sum,windspeed_10m_max,shortwave_radiation_sum&timezone=America/New_York
 
     # main attributes: 
-        # month -> (avg temp, min temp, max temp, monthly precip_sum, monthly shortwave_radiation_sum, monthly max wind speed)
+        # month -> (min apparent temp, max app temp, monthly precip_sum, monthly shortwave_radiation_sum, monthly max wind speed)
 
-    # Needs 6 tables, 1 for each attribute. Rows are the cities, cols are the months so (12 cols and 300+ rows)
+    # 1 table, city -> 12 cols, one col represents 1 month, it has array 
+    # Needs 5 tables, 1 for each attribute. Rows are the cities, cols are the months so (12 cols and 300+ rows)
     
+
     cur.execute("""SELECT * FROM population""")
     rows = cur.fetchall()
     for row in rows:
@@ -72,10 +77,17 @@ def getClimateData(cur):
 
 
 def main():
+    # 100 cities = run 8 times, 4 for population, 4 for climate_data
     conn = sqlite3.connect("climateProject.db")
     cur = conn.cursor()
-    # getCities(conn, cur)
-    getClimateData(cur)
+
+    cur.execute("SELECT * FROM population")
+    if len(cur.fetchall()) == 100:
+        getClimateData(cur)
+    else:
+        getCities(conn, cur)
+
+    # cur.execute("DROP TABLE population")
 
     conn.close()
 
