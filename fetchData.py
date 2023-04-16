@@ -11,7 +11,7 @@ def getCities(conn, cur):
     Get cities from wikipedia, gets (city, state, population, lat, lon)
     '''
     resp = requests.get("https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population")
-    soup = BeautifulSoup(resp.text, 'html.parser');
+    soup = BeautifulSoup(resp.text, 'html.parser')
 
     sql = """
         CREATE TABLE IF NOT EXISTS population (
@@ -59,7 +59,6 @@ def getCities(conn, cur):
 
 def getClimateData(conn, cur):
     # get climate normals (30 years of data per city)
-    
     sql = """
         CREATE TABLE IF NOT EXISTS climateData (
             city_id INTEGER PRIMARY KEY, 
@@ -86,12 +85,16 @@ def getClimateData(conn, cur):
 
     cur.execute("""SELECT * FROM population""")
     rows = cur.fetchall()
-    for row in rows: # 1 row = 1 city. 
+    cur.execute("""SELECT * FROM climateData""")
+    start = len(cur.fetchall())
+    end = start + 25
+    if start == 100:
+        return
+    for row in rows[start:end]: # 1 row = 1 city. 
         lat = row[-2]
         lon = row[-1]
-        url = f"https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}&start_date=2003-03-27&end_date=2023-04-10&daily=apparent_temperature_max,apparent_temperature_min,precipitation_sum,windspeed_10m_max,shortwave_radiation_sum&timezone=America/New_York&temperature_unit=fahrenheit"
+        url = f"https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}&start_date=2018-03-27&end_date=2023-04-10&daily=apparent_temperature_max,apparent_temperature_min,precipitation_sum,windspeed_10m_max,shortwave_radiation_sum&timezone=America/New_York&temperature_unit=fahrenheit"
         res = requests.get(url).json()
-
         timeStamps = res["daily"]["time"]
         tempMaxs = res["daily"]["apparent_temperature_max"]
         tempMins = res["daily"]["apparent_temperature_min"]
@@ -154,11 +157,9 @@ def getClimateData(conn, cur):
                 VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
         """
         cur.execute(insert_sql, (january, february, march, april, may, june, july, august, september, october, november, december))
-
-        break # test for one row rn. 
     
     conn.commit()
-    # each cell in the database pertains to a string serialized "[0.1, 0.2, 0.4, ...]"" representings t_max, t_min, etc...
+    # each cell in the database pertains to a string serialized "[0.1, 0.2, 0.4, ...]"" representings t_max, t_min, pcip_sum, wind_spd, solar_rad_sum
 
 
 
@@ -168,18 +169,17 @@ def main():
     conn = sqlite3.connect("climateProject.db")
     cur = conn.cursor()
 
-    cur.execute("SELECT * FROM climateData")
-    rows = cur.fetchall()
-    for row in rows:
-        print(len(row))
-        print(row)
+    #cur.execute("SELECT * FROM climateData")
+    #rows = cur.fetchall()
+    #for row in rows:
+    #    print(len(row))
+    #    print(row)
 
-    # cur.execute("SELECT * FROM population")
-    # if len(cur.fetchall()) == 100:
-
-    # getClimateData(conn, cur)
-    # else:
-        # getCities(conn, cur)
+    cur.execute("SELECT * FROM population")
+    if len(cur.fetchall()) == 100:
+        getClimateData(conn, cur)
+    else:
+        getCities(conn, cur)
 
     
 
