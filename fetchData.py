@@ -175,16 +175,23 @@ def main():
     #    print(len(row))
     #    print(row)
 
-    cur.execute("SELECT * FROM population")
-    if len(cur.fetchall()) == 100:
+    # we need to check whether the db is empty first or not so we don't get an error if it's empty
+    cur.execute("SELECT * FROM sqlite_master WHERE name ='population' and type='table'")
+    if cur.fetchone() == None:
+        population_rows = 0
+    else:
+        cur.execute("SELECT * FROM population")
+        population_rows = len(cur.fetchall())
+    print(population_rows)
+    if population_rows == 100:
         getClimateData(conn, cur)
     else:
         getCities(conn, cur)
 
     
 
-    # cur.execute("DROP TABLE population")
-    # cur.execute("DROP TABLE climateData")
+    #cur.execute("DROP TABLE population")
+    #cur.execute("DROP TABLE climateData")
 
 
     conn.close()

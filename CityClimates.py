@@ -27,7 +27,6 @@ def calculateRankings(chosen_city):
         cosine_similarities[city_name] = sum(monthly_similarities) / 12
     # sorting cosine similarities
     sorted_similarities = sorted(cosine_similarities.items(), key=lambda x:x[1], reverse=True)
-    print(sorted_similarities)
     f = open("calculated_data.txt", 'w')
     f.write(f"Climate cosine similarities between {chosen_city} and 99 other cities\n")
     for city in sorted_similarities:
