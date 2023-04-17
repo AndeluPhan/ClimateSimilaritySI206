@@ -1,109 +1,109 @@
 Climate cosine similarities between Los Angeles and 99 other cities
-Long Beach: 0.9996917162915238
-San Diego: 0.9994234310603202
-Irvine: 0.9992459036661628
-Oakland: 0.9992179030600354
-Santa Ana: 0.9991493568560288
-North Las Vegas: 0.9991386937132553
-Las Vegas: 0.9990837447435096
-Chula Vista: 0.9990466020662466
-Fremont: 0.9990228077499704
-Henderson: 0.9990094468453067
-Anaheim: 0.9986813151774204
-Riverside: 0.9984717646485937
-Stockton: 0.9984337249493609
-Tucson: 0.998289155165112
-Sacramento: 0.9981511424342425
-Santa Clarita: 0.9981398021025615
-San Jose: 0.9981121013959705
-Phoenix: 0.9980173817646096
-Scottsdale: 0.9979445589744095
-Fresno: 0.997851175269855
-Glendale: 0.9976944181536807
-San Antonio: 0.9975592420203224
-Mesa: 0.9974154388526206
-Laredo: 0.9974130981588045
-Austin: 0.9973504934904528
-Gilbert: 0.9973369368309003
-Charlotte: 0.9970468442707578
-Raleigh: 0.997042538829414
-Chandler: 0.9969782369498703
-Winston-Salem: 0.9969367853222013
-Greensboro: 0.996867140890869
-Durham: 0.9968210336287071
-Richmond: 0.9966083801224164
-Portland: 0.9965510689993584
-Atlanta: 0.9964191739846937
-El Paso: 0.996309862742169
-San Bernardino: 0.9963034509151373
-Memphis: 0.9962266566914549
-Fort Worth: 0.9961975753879136
-Houston: 0.9961878885666566
-Dallas: 0.9960168938336622
-Bakersfield: 0.9959594938673574
-Arlington: 0.9958939763376162
-Nashville: 0.9958470214009832
-Irving: 0.9958073844931281
-Chesapeake: 0.9957452278835625
-Garland: 0.9956002477391716
-Plano: 0.9953949335727678
-Norfolk: 0.9952961678822284
-Reno: 0.9952226747849124
-Washington: 0.9949822985139982
-Louisville: 0.9948846564916295
-Jacksonville: 0.9948545627928177
-Seattle: 0.994731051159054
-Lexington: 0.9946307024265507
-Tulsa: 0.9945005919282354
-Tampa: 0.9943769818728594
-New Orleans: 0.994053488882139
-Corpus Christi: 0.9936982136746922
-San Francisco: 0.9936253840480403
-Orlando: 0.9934869059477803
-Albuquerque: 0.9927089496227509
-St. Petersburg: 0.9926825176825851
-Cincinnati: 0.9924936573988976
-Honolulu: 0.9922897711828788
-Philadelphia: 0.9922498383800299
-Oklahoma City: 0.9921861922797648
-Jersey City: 0.9917755792281556
-Miami: 0.9917285237629975
-Virginia Beach: 0.9910985770585672
-St. Louis: 0.9909474876679839
-Newark: 0.9909292804542768
-Boise: 0.9909217043638919
-New York: 0.9909031205244546
-Pittsburgh: 0.9908397313232066
-Baltimore: 0.9892107538654349
-Lubbock: 0.9882635165489599
-Kansas City: 0.9874063233247344
-Columbus: 0.9861550052510784
-Indianapolis: 0.9858587420651589
-Wichita: 0.9852959588980729
-Spokane: 0.9794270522904021
-Boston: 0.9774186516219746
-Fort Wayne: 0.9740454507617192
-Aurora: 0.9736410703644255
-Cleveland: 0.9720795702553694
-Buffalo: 0.9710555720821862
-Detroit: 0.9703050411390058
-Denver: 0.9696171333615623
-Toledo: 0.9689485728533437
-Chicago: 0.965474003170797
-Lincoln: 0.9637333123193081
-Omaha: 0.9594098652834805
-Colorado Springs: 0.9557558168081198
-Madison: 0.9535612669544014
-Milwaukee: 0.9479027629808491
-Saint Paul: 0.9284757989490146
-Minneapolis: 0.9246050042906392
-Anchorage: 0.8548173758469867
+Long Beach, California: 0.9996917162915238
+San Diego, California: 0.9994234310603202
+Irvine, California: 0.9992459036661626
+Oakland, California: 0.9992179030600354
+Santa Ana, California: 0.9991493568560287
+North Las Vegas, Nevada: 0.9991386937132553
+Las Vegas, Nevada: 0.9990837447435097
+Chula Vista, California: 0.999046602066247
+Fremont, California: 0.9990228077499704
+Henderson, Nevada: 0.9990094468453067
+Anaheim, California: 0.9986813151774204
+Riverside, California: 0.9984717646485938
+Stockton, California: 0.9984337249493609
+Tucson, Arizona: 0.998289155165112
+Sacramento, California: 0.9981511424342426
+Santa Clarita, California: 0.9981398021025615
+San Jose, California: 0.9981121013959705
+Phoenix, Arizona: 0.9980173817646096
+Scottsdale, Arizona: 0.9979445589744094
+Fresno, California: 0.9978511752698548
+Glendale, Arizona: 0.9976944181536807
+San Antonio, Texas: 0.9975592420203226
+Mesa, Arizona: 0.997415438852621
+Laredo, Texas: 0.9974130981588045
+Austin, Texas: 0.9973504934904528
+Gilbert, Arizona: 0.9973369368309003
+Charlotte, North Carolina: 0.9970468442707578
+Raleigh, North Carolina: 0.997042538829414
+Chandler, Arizona: 0.9969782369498703
+Winston-Salem, North Carolina: 0.9969367853222013
+Greensboro, North Carolina: 0.996867140890869
+Durham, North Carolina: 0.9968210336287071
+Richmond, Virginia: 0.9966083801224164
+Portland, Oregon: 0.9965510689993584
+Atlanta, Georgia: 0.9964191739846937
+El Paso, Texas: 0.9963098627421689
+San Bernardino, California: 0.9963034509151373
+Memphis, Tennessee: 0.9962266566914549
+Fort Worth, Texas: 0.9961975753879136
+Houston, Texas: 0.9961878885666567
+Dallas, Texas: 0.9960168938336622
+Bakersfield, California: 0.9959594938673574
+Arlington, Texas: 0.9958939763376162
+Nashville, Tennessee: 0.9958470214009832
+Irving, Texas: 0.9958073844931281
+Chesapeake, Virginia: 0.9957452278835625
+Garland, Texas: 0.9956002477391716
+Plano, Texas: 0.9953949335727678
+Norfolk, Virginia: 0.9952961678822286
+Reno, Nevada: 0.9952226747849124
+Washington, District of Columbia: 0.9949822985139982
+Louisville, Kentucky: 0.9948846564916295
+Jacksonville, Florida: 0.9948545627928177
+Seattle, Washington: 0.994731051159054
+Lexington, Kentucky: 0.9946307024265507
+Tulsa, Oklahoma: 0.9945005919282354
+Tampa, Florida: 0.9943769818728594
+New Orleans, Louisiana: 0.994053488882139
+Corpus Christi, Texas: 0.9936982136746922
+San Francisco, California: 0.9936253840480403
+Orlando, Florida: 0.9934869059477803
+Albuquerque, New Mexico: 0.9927089496227509
+St. Petersburg, Florida: 0.9926825176825851
+Cincinnati, Ohio: 0.9924936573988976
+Honolulu, Hawaii: 0.9922897711828785
+Philadelphia, Pennsylvania: 0.9922498383800299
+Oklahoma City, Oklahoma: 0.9921861922797648
+Jersey City, New Jersey: 0.9917755792281556
+Miami, Florida: 0.9917285237629975
+Virginia Beach, Virginia: 0.9910985770585672
+St. Louis, Missouri: 0.9909474876679839
+Newark, New Jersey: 0.9909292804542768
+Boise, Idaho: 0.9909217043638919
+New York, New York: 0.9909031205244546
+Pittsburgh, Pennsylvania: 0.9908397313232066
+Baltimore, Maryland: 0.9892107538654349
+Lubbock, Texas: 0.9882635165489599
+Kansas City, Missouri: 0.9874063233247344
+Columbus, Ohio: 0.9861550052510784
+Indianapolis, Indiana: 0.9858587420651589
+Wichita, Kansas: 0.9852959588980728
+Spokane, Washington: 0.9794270522904021
+Boston, Massachusetts: 0.9774186516219746
+Fort Wayne, Indiana: 0.9740454507617192
+Aurora, Colorado: 0.9736410703644255
+Cleveland, Ohio: 0.9720795702553694
+Buffalo, New York: 0.9710555720821862
+Detroit, Michigan: 0.9703050411390058
+Denver, Colorado: 0.9696171333615623
+Toledo, Ohio: 0.9689485728533439
+Chicago, Illinois: 0.965474003170797
+Lincoln, Nebraska: 0.9637333123193081
+Omaha, Nebraska: 0.9594098652834805
+Colorado Springs, Colorado: 0.9557558168081198
+Madison, Wisconsin: 0.9535612669544012
+Milwaukee, Wisconsin: 0.9479027629808491
+Saint Paul, Minnesota: 0.9284757989490146
+Minneapolis, Minnesota: 0.9246050042906394
+Anchorage, Alaska: 0.8548173758469867
 
-City with the most similar climate to Los Angeles: Long Beach
-City with the least similar climate to Los Angeles: Anchorage
+City with the most similar climate to Los Angeles: Long Beach, California
+City with the least similar climate to Los Angeles: Anchorage, Alaska
 
 Cities with the closest latitude to Los Angeles:
-Riverside, San Bernardino, Anaheim, Long Beach, Atlanta, Santa Ana, Irvine, Scottsdale, Santa Clarita, Phoenix, Lubbock, Glendale, Mesa, Gilbert, Chandler, Plano, Albuquerque, Memphis, Garland, Irving, Charlotte, San Diego, Dallas, Fort Worth, Arlington, Bakersfield, Chula Vista, Oklahoma City, Raleigh, Tucson, Durham, Henderson, Greensboro, Winston-Salem, Tulsa, Nashville, El Paso, Las Vegas, North Las Vegas, Chesapeake, Fresno, Virginia Beach, Norfolk, San Jose, Fremont, Richmond, Wichita, Jacksonville, San Francisco, Austin, Oakland, Stockton, New Orleans, Lexington, Louisville, Houston, Sacramento, San Antonio, St. Louis, Colorado Springs, Washington, Kansas City, Cincinnati, Baltimore, Reno, Orlando, Aurora, Denver, Indianapolis, Columbus, Philadelphia, Tampa, St. Petersburg, Corpus Christi, Pittsburgh, Laredo, New York, Jersey City, Newark, Lincoln, Fort Wayne, Omaha, Cleveland, Toledo, Chicago, Miami, Boston, Detroit, Buffalo, Milwaukee, Madison, Boise, Saint Paul, Minneapolis, Portland, Honolulu, Seattle, Spokane, Anchorage, 
+('Riverside', 'California'), ('San Bernardino', 'California'), ('Anaheim', 'California'), ('Long Beach', 'California'), ('Atlanta', 'Georgia'), ('Santa Ana', 'California'), ('Irvine', 'California'), ('Scottsdale', 'Arizona'), ('Santa Clarita', 'California'), ('Phoenix', 'Arizona'), ('Lubbock', 'Texas'), ('Glendale', 'Arizona'), ('Mesa', 'Arizona'), ('Gilbert', 'Arizona'), ('Chandler', 'Arizona'), ('Plano', 'Texas'), ('Albuquerque', 'New Mexico'), ('Memphis', 'Tennessee'), ('Garland', 'Texas'), ('Irving', 'Texas'), ('Charlotte', 'North Carolina'), ('San Diego', 'California'), ('Dallas', 'Texas'), ('Fort Worth', 'Texas'), ('Arlington', 'Texas'), ('Bakersfield', 'California'), ('Chula Vista', 'California'), ('Oklahoma City', 'Oklahoma'), ('Raleigh', 'North Carolina'), ('Tucson', 'Arizona'), ('Durham', 'North Carolina'), ('Henderson', 'Nevada'), ('Greensboro', 'North Carolina'), ('Winston-Salem', 'North Carolina'), ('Tulsa', 'Oklahoma'), ('Nashville', 'Tennessee'), ('El Paso', 'Texas'), ('Las Vegas', 'Nevada'), ('North Las Vegas', 'Nevada'), ('Chesapeake', 'Virginia'), ('Fresno', 'California'), ('Virginia Beach', 'Virginia'), ('Norfolk', 'Virginia'), ('San Jose', 'California'), ('Fremont', 'California'), ('Richmond', 'Virginia'), ('Wichita', 'Kansas'), ('Jacksonville', 'Florida'), ('San Francisco', 'California'), ('Austin', 'Texas'), ('Oakland', 'California'), ('Stockton', 'California'), ('New Orleans', 'Louisiana'), ('Lexington', 'Kentucky'), ('Louisville', 'Kentucky'), ('Houston', 'Texas'), ('Sacramento', 'California'), ('San Antonio', 'Texas'), ('St. Louis', 'Missouri'), ('Colorado Springs', 'Colorado'), ('Washington', 'District of Columbia'), ('Kansas City', 'Missouri'), ('Cincinnati', 'Ohio'), ('Baltimore', 'Maryland'), ('Reno', 'Nevada'), ('Orlando', 'Florida'), ('Aurora', 'Colorado'), ('Denver', 'Colorado'), ('Indianapolis', 'Indiana'), ('Columbus', 'Ohio'), ('Philadelphia', 'Pennsylvania'), ('Tampa', 'Florida'), ('St. Petersburg', 'Florida'), ('Corpus Christi', 'Texas'), ('Pittsburgh', 'Pennsylvania'), ('Laredo', 'Texas'), ('New York', 'New York'), ('Jersey City', 'New Jersey'), ('Newark', 'New Jersey'), ('Lincoln', 'Nebraska'), ('Fort Wayne', 'Indiana'), ('Omaha', 'Nebraska'), ('Cleveland', 'Ohio'), ('Toledo', 'Ohio'), ('Chicago', 'Illinois'), ('Miami', 'Florida'), ('Boston', 'Massachusetts'), ('Detroit', 'Michigan'), ('Buffalo', 'New York'), ('Milwaukee', 'Wisconsin'), ('Madison', 'Wisconsin'), ('Boise', 'Idaho'), ('Saint Paul', 'Minnesota'), ('Minneapolis', 'Minnesota'), ('Portland', 'Oregon'), ('Honolulu', 'Hawaii'), ('Seattle', 'Washington'), ('Spokane', 'Washington'), ('Anchorage', 'Alaska'), 
 
 Cities with the closest longitude to Los Angeles:
-Santa Clarita, Long Beach, Santa Ana, Bakersfield, Irvine, Anaheim, Spokane, Riverside, San Bernardino, San Diego, Fresno, Chula Vista, Reno, Boise, Stockton, Sacramento, Las Vegas, North Las Vegas, Henderson, San Jose, Fremont, Oakland, Seattle, Portland, San Francisco, Glendale, Phoenix, Scottsdale, Chandler, Gilbert, Mesa, Tucson, Albuquerque, El Paso, Denver, Colorado Springs, Aurora, Lubbock, Laredo, San Antonio, Austin, Oklahoma City, Fort Worth, Wichita, Corpus Christi, Arlington, Irving, Dallas, Plano, Lincoln, Garland, Omaha, Tulsa, Houston, Kansas City, Minneapolis, Saint Paul, St. Louis, Memphis, New Orleans, Madison, Milwaukee, Chicago, Anchorage, Nashville, Indianapolis, Louisville, Fort Wayne, Cincinnati, Lexington, Atlanta, Toledo, Detroit, Columbus, St. Petersburg, Tampa, Cleveland, Jacksonville, Orlando, Charlotte, Winston-Salem, Miami, Pittsburgh, Greensboro, Honolulu, Durham, Buffalo, Raleigh, Richmond, Washington, Baltimore, Chesapeake, Norfolk, Virginia Beach, Philadelphia, Newark, Jersey City, New York, Boston, 
+('Santa Clarita', 'California'), ('Long Beach', 'California'), ('Santa Ana', 'California'), ('Bakersfield', 'California'), ('Irvine', 'California'), ('Anaheim', 'California'), ('Spokane', 'Washington'), ('Riverside', 'California'), ('San Bernardino', 'California'), ('San Diego', 'California'), ('Fresno', 'California'), ('Chula Vista', 'California'), ('Reno', 'Nevada'), ('Boise', 'Idaho'), ('Stockton', 'California'), ('Sacramento', 'California'), ('Las Vegas', 'Nevada'), ('North Las Vegas', 'Nevada'), ('Henderson', 'Nevada'), ('San Jose', 'California'), ('Fremont', 'California'), ('Oakland', 'California'), ('Seattle', 'Washington'), ('Portland', 'Oregon'), ('San Francisco', 'California'), ('Glendale', 'Arizona'), ('Phoenix', 'Arizona'), ('Scottsdale', 'Arizona'), ('Chandler', 'Arizona'), ('Gilbert', 'Arizona'), ('Mesa', 'Arizona'), ('Tucson', 'Arizona'), ('Albuquerque', 'New Mexico'), ('El Paso', 'Texas'), ('Denver', 'Colorado'), ('Colorado Springs', 'Colorado'), ('Aurora', 'Colorado'), ('Lubbock', 'Texas'), ('Laredo', 'Texas'), ('San Antonio', 'Texas'), ('Austin', 'Texas'), ('Oklahoma City', 'Oklahoma'), ('Fort Worth', 'Texas'), ('Wichita', 'Kansas'), ('Corpus Christi', 'Texas'), ('Arlington', 'Texas'), ('Irving', 'Texas'), ('Dallas', 'Texas'), ('Plano', 'Texas'), ('Lincoln', 'Nebraska'), ('Garland', 'Texas'), ('Omaha', 'Nebraska'), ('Tulsa', 'Oklahoma'), ('Houston', 'Texas'), ('Kansas City', 'Missouri'), ('Minneapolis', 'Minnesota'), ('Saint Paul', 'Minnesota'), ('St. Louis', 'Missouri'), ('Memphis', 'Tennessee'), ('New Orleans', 'Louisiana'), ('Madison', 'Wisconsin'), ('Milwaukee', 'Wisconsin'), ('Chicago', 'Illinois'), ('Anchorage', 'Alaska'), ('Nashville', 'Tennessee'), ('Indianapolis', 'Indiana'), ('Louisville', 'Kentucky'), ('Fort Wayne', 'Indiana'), ('Cincinnati', 'Ohio'), ('Lexington', 'Kentucky'), ('Atlanta', 'Georgia'), ('Toledo', 'Ohio'), ('Detroit', 'Michigan'), ('Columbus', 'Ohio'), ('St. Petersburg', 'Florida'), ('Tampa', 'Florida'), ('Cleveland', 'Ohio'), ('Jacksonville', 'Florida'), ('Orlando', 'Florida'), ('Charlotte', 'North Carolina'), ('Winston-Salem', 'North Carolina'), ('Miami', 'Florida'), ('Pittsburgh', 'Pennsylvania'), ('Greensboro', 'North Carolina'), ('Honolulu', 'Hawaii'), ('Durham', 'North Carolina'), ('Buffalo', 'New York'), ('Raleigh', 'North Carolina'), ('Richmond', 'Virginia'), ('Washington', 'District of Columbia'), ('Baltimore', 'Maryland'), ('Chesapeake', 'Virginia'), ('Norfolk', 'Virginia'), ('Virginia Beach', 'Virginia'), ('Philadelphia', 'Pennsylvania'), ('Newark', 'New Jersey'), ('Jersey City', 'New Jersey'), ('New York', 'New York'), ('Boston', 'Massachusetts'), 
