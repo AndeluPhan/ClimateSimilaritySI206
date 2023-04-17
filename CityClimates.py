@@ -90,15 +90,16 @@ def calculateSimilaritiesByLatLon(cur, conn, city, cosine_similarities):
         x_axis2.append(dist[1])
         y_axis2.append(cosine_similarities[dist[0]])
     fig, (ax1, ax2) = plt.subplots(2)
+    xlim = max(x_axis1[-1], x_axis2[-1])
     # plotting lat
     ax1.plot(x_axis1, y_axis1, 'hotpink', label="Latitude")
     ax1.set(xlabel="Latitude Difference", ylabel="Climate Cosine Similarity", title=f"Latitude Difference VS Climate Cosine Similarity ({city})")
-    ax1.set_xlim(0, 80)
+    ax1.set_xlim(0, xlim)
     ax1.grid()
     # plotting lon
     ax2.plot(x_axis2, y_axis2, 'lightsteelblue', label="Longitude")
     ax2.set(xlabel="Longitude Difference", ylabel="Climate Cosine Similarity", title=f"Longitude Difference VS Climate Cosine Similarity ({city})")
-    ax2.set_xlim(0, 80)
+    ax2.set_xlim(0, xlim)
     ax2.grid()
     fig.tight_layout()
     fig.savefig("similarityLatLonPlot.png")

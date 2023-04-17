@@ -1,109 +1,109 @@
-Climate cosine similarities between Miami and 99 other cities
-St. Petersburg: 0.9995778885923302
-Tampa: 0.9988667789549331
-Orlando: 0.9984713588237715
-Honolulu: 0.9983725918812786
-Corpus Christi: 0.998340977505736
-New Orleans: 0.9983163910834004
-Jacksonville: 0.9980349723431866
-Houston: 0.9969979766266618
-San Antonio: 0.9958610889871632
-Laredo: 0.9958609084110238
-Austin: 0.9948705097728968
-Santa Ana: 0.9945908531529178
-Irvine: 0.9944474251457888
-Chula Vista: 0.9943936496194822
-San Diego: 0.9940486216746461
-Long Beach: 0.993746159354968
-Raleigh: 0.9932337696698195
-Norfolk: 0.9930848939104134
-Charlotte: 0.9926193554302167
-Dallas: 0.9924222781779997
-Fremont: 0.9924024433115394
-Atlanta: 0.9922126248225083
-Chesapeake: 0.9920310379501847
-Irving: 0.9918289647260553
-Richmond: 0.9917878257481488
-Fort Worth: 0.9917597308796537
-Los Angeles: 0.9917285237629975
-Garland: 0.9917016710221005
-Arlington: 0.9915974396428108
-Durham: 0.9915813561789331
-Memphis: 0.9914542274324499
-Seattle: 0.9913337734094011
-Plano: 0.9912304219121634
-Nashville: 0.9912119782849035
-Greensboro: 0.9909735024033303
-Winston-Salem: 0.9909688486096294
-Henderson: 0.9909358328151932
-Portland: 0.9908021616475091
-Anaheim: 0.990719909075341
-Oakland: 0.9902630428870799
-North Las Vegas: 0.990183751658854
-Glendale: 0.9891299117801292
-Phoenix: 0.9891227316460373
-San Jose: 0.9890491115881722
-Washington: 0.9888247034500117
-Stockton: 0.988693954387748
-Virginia Beach: 0.9885844595920448
-Gilbert: 0.9885706699746976
-Las Vegas: 0.988560003311453
-Fresno: 0.9884058642386445
-San Francisco: 0.9883844786511952
-Riverside: 0.9881337447072888
-Mesa: 0.9878750168857765
-Sacramento: 0.9878665608635216
-Tulsa: 0.9876781438698963
-Lexington: 0.987449978528256
-Louisville: 0.9873981063435747
-Scottsdale: 0.9873474905578802
-Jersey City: 0.9872149051334212
-Chandler: 0.987170417285003
-Santa Clarita: 0.9871276731844884
-Tucson: 0.9870160684370491
-Bakersfield: 0.9863881104735576
-San Bernardino: 0.9861472233402715
-Philadelphia: 0.98527931267441
-Cincinnati: 0.9840550268958718
-New York: 0.9835987912068996
-Oklahoma City: 0.9832690109940625
-Newark: 0.9830186615228609
-El Paso: 0.9829368665231542
-Baltimore: 0.982111957175896
-St. Louis: 0.9817696400707242
-Pittsburgh: 0.9816416731448413
-Reno: 0.9785154411885744
-Kansas City: 0.9765565631193
-Albuquerque: 0.9764618450997619
-Boise: 0.9758080079596594
-Columbus: 0.9757402608319968
-Indianapolis: 0.9755845429684968
-Lubbock: 0.9739854022088043
-Wichita: 0.9730529275086867
-Boston: 0.9673461625774235
-Spokane: 0.9627961514683431
-Cleveland: 0.9624306462419706
-Fort Wayne: 0.9613593402381895
-Buffalo: 0.9613409560927656
-Detroit: 0.9574444072493513
-Toledo: 0.9567523887015791
-Chicago: 0.9537107257116402
-Lincoln: 0.9461214604307552
-Aurora: 0.9453072616546546
-Omaha: 0.9410086821990036
-Denver: 0.9384690489032725
-Madison: 0.9346056404593973
-Milwaukee: 0.9340533755100151
-Colorado Springs: 0.9188461746924381
-Saint Paul: 0.9064070684319944
-Minneapolis: 0.9015524934374101
-Anchorage: 0.8210331589369426
+Climate cosine similarities between Los Angeles and 99 other cities
+Long Beach: 0.9996917162915238
+San Diego: 0.9994234310603202
+Irvine: 0.9992459036661628
+Oakland: 0.9992179030600354
+Santa Ana: 0.9991493568560288
+North Las Vegas: 0.9991386937132553
+Las Vegas: 0.9990837447435096
+Chula Vista: 0.9990466020662466
+Fremont: 0.9990228077499704
+Henderson: 0.9990094468453067
+Anaheim: 0.9986813151774204
+Riverside: 0.9984717646485937
+Stockton: 0.9984337249493609
+Tucson: 0.998289155165112
+Sacramento: 0.9981511424342425
+Santa Clarita: 0.9981398021025615
+San Jose: 0.9981121013959705
+Phoenix: 0.9980173817646096
+Scottsdale: 0.9979445589744095
+Fresno: 0.997851175269855
+Glendale: 0.9976944181536807
+San Antonio: 0.9975592420203224
+Mesa: 0.9974154388526206
+Laredo: 0.9974130981588045
+Austin: 0.9973504934904528
+Gilbert: 0.9973369368309003
+Charlotte: 0.9970468442707578
+Raleigh: 0.997042538829414
+Chandler: 0.9969782369498703
+Winston-Salem: 0.9969367853222013
+Greensboro: 0.996867140890869
+Durham: 0.9968210336287071
+Richmond: 0.9966083801224164
+Portland: 0.9965510689993584
+Atlanta: 0.9964191739846937
+El Paso: 0.996309862742169
+San Bernardino: 0.9963034509151373
+Memphis: 0.9962266566914549
+Fort Worth: 0.9961975753879136
+Houston: 0.9961878885666566
+Dallas: 0.9960168938336622
+Bakersfield: 0.9959594938673574
+Arlington: 0.9958939763376162
+Nashville: 0.9958470214009832
+Irving: 0.9958073844931281
+Chesapeake: 0.9957452278835625
+Garland: 0.9956002477391716
+Plano: 0.9953949335727678
+Norfolk: 0.9952961678822284
+Reno: 0.9952226747849124
+Washington: 0.9949822985139982
+Louisville: 0.9948846564916295
+Jacksonville: 0.9948545627928177
+Seattle: 0.994731051159054
+Lexington: 0.9946307024265507
+Tulsa: 0.9945005919282354
+Tampa: 0.9943769818728594
+New Orleans: 0.994053488882139
+Corpus Christi: 0.9936982136746922
+San Francisco: 0.9936253840480403
+Orlando: 0.9934869059477803
+Albuquerque: 0.9927089496227509
+St. Petersburg: 0.9926825176825851
+Cincinnati: 0.9924936573988976
+Honolulu: 0.9922897711828788
+Philadelphia: 0.9922498383800299
+Oklahoma City: 0.9921861922797648
+Jersey City: 0.9917755792281556
+Miami: 0.9917285237629975
+Virginia Beach: 0.9910985770585672
+St. Louis: 0.9909474876679839
+Newark: 0.9909292804542768
+Boise: 0.9909217043638919
+New York: 0.9909031205244546
+Pittsburgh: 0.9908397313232066
+Baltimore: 0.9892107538654349
+Lubbock: 0.9882635165489599
+Kansas City: 0.9874063233247344
+Columbus: 0.9861550052510784
+Indianapolis: 0.9858587420651589
+Wichita: 0.9852959588980729
+Spokane: 0.9794270522904021
+Boston: 0.9774186516219746
+Fort Wayne: 0.9740454507617192
+Aurora: 0.9736410703644255
+Cleveland: 0.9720795702553694
+Buffalo: 0.9710555720821862
+Detroit: 0.9703050411390058
+Denver: 0.9696171333615623
+Toledo: 0.9689485728533437
+Chicago: 0.965474003170797
+Lincoln: 0.9637333123193081
+Omaha: 0.9594098652834805
+Colorado Springs: 0.9557558168081198
+Madison: 0.9535612669544014
+Milwaukee: 0.9479027629808491
+Saint Paul: 0.9284757989490146
+Minneapolis: 0.9246050042906392
+Anchorage: 0.8548173758469867
 
-City with the most similar climate to Miami: St. Petersburg
-City with the least similar climate to Miami: Anchorage
+City with the most similar climate to Los Angeles: Long Beach
+City with the least similar climate to Los Angeles: Anchorage
 
-Cities with the closest latitude to Miami:
-Laredo, Corpus Christi, St. Petersburg, Tampa, Orlando, San Antonio, Houston, New Orleans, Honolulu, Austin, Jacksonville, El Paso, Tucson, Chula Vista, Arlington, Fort Worth, Dallas, San Diego, Irving, Garland, Plano, Chandler, Gilbert, Mesa, Glendale, Phoenix, Lubbock, Irvine, Scottsdale, Santa Ana, Atlanta, Long Beach, Anaheim, Riverside, Los Angeles, San Bernardino, Santa Clarita, Albuquerque, Memphis, Charlotte, Bakersfield, Oklahoma City, Raleigh, Durham, Henderson, Greensboro, Winston-Salem, Tulsa, Nashville, Las Vegas, North Las Vegas, Chesapeake, Fresno, Virginia Beach, Norfolk, San Jose, Fremont, Richmond, Wichita, San Francisco, Oakland, Stockton, Lexington, Louisville, Sacramento, St. Louis, Colorado Springs, Washington, Kansas City, Cincinnati, Baltimore, Reno, Aurora, Denver, Indianapolis, Columbus, Philadelphia, Pittsburgh, New York, Jersey City, Newark, Lincoln, Fort Wayne, Omaha, Cleveland, Toledo, Chicago, Boston, Detroit, Buffalo, Milwaukee, Madison, Boise, Saint Paul, Minneapolis, Portland, Seattle, Spokane, Anchorage, 
+Cities with the closest latitude to Los Angeles:
+Riverside, San Bernardino, Anaheim, Long Beach, Atlanta, Santa Ana, Irvine, Scottsdale, Santa Clarita, Phoenix, Lubbock, Glendale, Mesa, Gilbert, Chandler, Plano, Albuquerque, Memphis, Garland, Irving, Charlotte, San Diego, Dallas, Fort Worth, Arlington, Bakersfield, Chula Vista, Oklahoma City, Raleigh, Tucson, Durham, Henderson, Greensboro, Winston-Salem, Tulsa, Nashville, El Paso, Las Vegas, North Las Vegas, Chesapeake, Fresno, Virginia Beach, Norfolk, San Jose, Fremont, Richmond, Wichita, Jacksonville, San Francisco, Austin, Oakland, Stockton, New Orleans, Lexington, Louisville, Houston, Sacramento, San Antonio, St. Louis, Colorado Springs, Washington, Kansas City, Cincinnati, Baltimore, Reno, Orlando, Aurora, Denver, Indianapolis, Columbus, Philadelphia, Tampa, St. Petersburg, Corpus Christi, Pittsburgh, Laredo, New York, Jersey City, Newark, Lincoln, Fort Wayne, Omaha, Cleveland, Toledo, Chicago, Miami, Boston, Detroit, Buffalo, Milwaukee, Madison, Boise, Saint Paul, Minneapolis, Portland, Honolulu, Seattle, Spokane, Anchorage, 
 
-Cities with the closest longitude to Miami:
-Winston-Salem, Pittsburgh, Greensboro, Charlotte, Orlando, Durham, Buffalo, Jacksonville, Cleveland, Raleigh, Tampa, St. Petersburg, Richmond, Columbus, Detroit, Washington, Toledo, Baltimore, Chesapeake, Norfolk, Virginia Beach, Atlanta, Lexington, Cincinnati, Fort Wayne, Philadelphia, Louisville, Indianapolis, Newark, Jersey City, New York, Nashville, Chicago, Milwaukee, Boston, Madison, New Orleans, Memphis, St. Louis, Saint Paul, Minneapolis, Kansas City, Houston, Tulsa, Omaha, Garland, Lincoln, Plano, Dallas, Irving, Arlington, Corpus Christi, Fort Worth, Wichita, Oklahoma City, Austin, San Antonio, Laredo, Lubbock, Aurora, Colorado Springs, Denver, El Paso, Albuquerque, Tucson, Mesa, Gilbert, Chandler, Scottsdale, Phoenix, Glendale, Henderson, North Las Vegas, Las Vegas, Boise, Chula Vista, San Diego, San Bernardino, Riverside, Spokane, Anaheim, Irvine, Santa Ana, Long Beach, Los Angeles, Santa Clarita, Bakersfield, Fresno, Reno, Stockton, Sacramento, San Jose, Fremont, Oakland, Seattle, Portland, San Francisco, Anchorage, Honolulu, 
+Cities with the closest longitude to Los Angeles:
+Santa Clarita, Long Beach, Santa Ana, Bakersfield, Irvine, Anaheim, Spokane, Riverside, San Bernardino, San Diego, Fresno, Chula Vista, Reno, Boise, Stockton, Sacramento, Las Vegas, North Las Vegas, Henderson, San Jose, Fremont, Oakland, Seattle, Portland, San Francisco, Glendale, Phoenix, Scottsdale, Chandler, Gilbert, Mesa, Tucson, Albuquerque, El Paso, Denver, Colorado Springs, Aurora, Lubbock, Laredo, San Antonio, Austin, Oklahoma City, Fort Worth, Wichita, Corpus Christi, Arlington, Irving, Dallas, Plano, Lincoln, Garland, Omaha, Tulsa, Houston, Kansas City, Minneapolis, Saint Paul, St. Louis, Memphis, New Orleans, Madison, Milwaukee, Chicago, Anchorage, Nashville, Indianapolis, Louisville, Fort Wayne, Cincinnati, Lexington, Atlanta, Toledo, Detroit, Columbus, St. Petersburg, Tampa, Cleveland, Jacksonville, Orlando, Charlotte, Winston-Salem, Miami, Pittsburgh, Greensboro, Honolulu, Durham, Buffalo, Raleigh, Richmond, Washington, Baltimore, Chesapeake, Norfolk, Virginia Beach, Philadelphia, Newark, Jersey City, New York, Boston, 
