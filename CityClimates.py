@@ -57,7 +57,7 @@ def calculateRankings(cur, chosen_city):
     plt.gcf().subplots_adjust(left=0.35)
     plt.ylabel("Cities")
     plt.xlabel(f"Population Size (millions)")
-    plt.title(f"Population of Top 10 Most Similar Climate")
+    plt.title(f"Population of Top 10 Most Similar Climate to {chosen_city}")
     plt.savefig("populationsTopTen.png")
 
     return cosine_similarities
