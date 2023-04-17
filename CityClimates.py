@@ -11,8 +11,9 @@ def calculateRankings(cur, chosen_city):
     chosen_city_id = cur.fetchone()[0]
     cur.execute("SELECT * FROM climateData WHERE city_id == ?", (chosen_city_id, ))
     chosen_climate_data = cur.fetchone()
-    cur.execute("SELECT climateData.*, population.city, population.state FROM climateData JOIN population ON climateData.city_id = population.city_id WHERE climateData.city_id != ?", (chosen_city_id, ))
+    cur.execute("SELECT climateData.*, population.population, population.city, population.state FROM climateData JOIN population ON climateData.city_id = population.city_id WHERE climateData.city_id != ?", (chosen_city_id, ))
     climateData = cur.fetchall()
+    population_data = {(x[-2],x[-1]):x[-3] for x in climateData}
     cosine_similarities = {} # dictionary holding cosine similarities between other cities and chosen city {city_name: cosine_similarity}
     for city in climateData:
         city_name = city[-2]
@@ -48,6 +49,16 @@ def calculateRankings(cur, chosen_city):
     plt.title(f"Top 10 Cities With Similar Climate To {chosen_city}")
     plt.gcf().subplots_adjust(left=0.35)
     plt.savefig("topTenSimilarClimates.png")
+
+    fig = plt.figure()
+    city_names = [(i[0][0], i[0][1]) for i in sorted_similarities[:10]]
+    populations = [population_data[city_n] for city_n in city_names]
+    plt.barh(city_name, populations)
+    plt.gcf().subplots_adjust(left=0.35)
+    plt.ylabel("Cities")
+    plt.xlabel(f"Population Size (millions)")
+    plt.title(f"Population of Top 10 Most Similar Climate")
+    plt.savefig("populationsTopTen.png")
 
     return cosine_similarities
 
