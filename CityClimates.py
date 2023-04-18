@@ -53,7 +53,7 @@ def calculateRankings(cur, chosen_city):
     fig = plt.figure()
     city_names = [(i[0][0], i[0][1]) for i in sorted_similarities[:10]]
     populations = [population_data[city_n] for city_n in city_names]
-    plt.barh(city_name, populations)
+    plt.barh(city_name, populations, color="green")
     plt.gcf().subplots_adjust(left=0.35)
     plt.ylabel("Cities")
     plt.xlabel(f"Population Size (millions)")
