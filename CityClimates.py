@@ -37,7 +37,7 @@ def calculateRankings(cur, chosen_city):
     
     f.write(f"\nCity with the most similar climate to {chosen_city}: {sorted_similarities[0][0][0]}, {sorted_similarities[0][0][1]}\n")
     f.write(f"City with the least similar climate to {chosen_city}: {sorted_similarities[-1][0][0]}, {sorted_similarities[-1][0][1]}\n")
-    f.close()
+    # f.close()
 
     # plotting the top 10 cities with the most similar climate
     city_name = [f"{i[0][0]}, {i[0][1]}" for i in sorted_similarities[:10]]
@@ -60,6 +60,12 @@ def calculateRankings(cur, chosen_city):
     plt.title(f"Population of Top 10 Most Similar Climate to {chosen_city}")
     plt.savefig("populationsTopTen.png")
 
+    # with open("calculated_data.txt", 'w') as fw:
+    f.write(f"\nTop Ten Cities with the Most Similar Climate and their Population:\n")
+    for i in range(len(city_names)):
+        f.write(f"{city_names[i][0]}, {city_names[i][1]}: {populations[i]}\n")
+
+    f.close()
     return cosine_similarities
 
 def calculateSimilaritiesByLatLon(cur, city, cosine_similarities):

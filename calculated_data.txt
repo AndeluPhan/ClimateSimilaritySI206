@@ -102,6 +102,18 @@ Anchorage, Alaska: 0.8210331589369426
 City with the most similar climate to Miami: St. Petersburg, Florida
 City with the least similar climate to Miami: Anchorage, Alaska
 
+Top Ten Cities with the Most Similar Climate and their Population:
+St. Petersburg, Florida: 258201
+Tampa, Florida: 387050
+Orlando, Florida: 309154
+Honolulu, Hawaii: 345510
+Corpus Christi, Texas: 317773
+New Orleans, Louisiana: 376971
+Jacksonville, Florida: 954614
+Houston, Texas: 2288250
+San Antonio, Texas: 1451853
+Laredo, Texas: 256153
+
 Cities with the closest latitude to Miami (Closest - Furthest):
 ('Laredo', 'Texas'), ('Corpus Christi', 'Texas'), ('St. Petersburg', 'Florida'), ('Tampa', 'Florida'), ('Orlando', 'Florida'), ('San Antonio', 'Texas'), ('Houston', 'Texas'), ('New Orleans', 'Louisiana'), ('Honolulu', 'Hawaii'), ('Austin', 'Texas'), ('Jacksonville', 'Florida'), ('El Paso', 'Texas'), ('Tucson', 'Arizona'), ('Chula Vista', 'California'), ('Arlington', 'Texas'), ('Fort Worth', 'Texas'), ('Dallas', 'Texas'), ('San Diego', 'California'), ('Irving', 'Texas'), ('Garland', 'Texas'), ('Plano', 'Texas'), ('Chandler', 'Arizona'), ('Gilbert', 'Arizona'), ('Mesa', 'Arizona'), ('Glendale', 'Arizona'), ('Phoenix', 'Arizona'), ('Lubbock', 'Texas'), ('Irvine', 'California'), ('Scottsdale', 'Arizona'), ('Santa Ana', 'California'), ('Atlanta', 'Georgia'), ('Long Beach', 'California'), ('Anaheim', 'California'), ('Riverside', 'California'), ('Los Angeles', 'California'), ('San Bernardino', 'California'), ('Santa Clarita', 'California'), ('Albuquerque', 'New Mexico'), ('Memphis', 'Tennessee'), ('Charlotte', 'North Carolina'), ('Bakersfield', 'California'), ('Oklahoma City', 'Oklahoma'), ('Raleigh', 'North Carolina'), ('Durham', 'North Carolina'), ('Henderson', 'Nevada'), ('Greensboro', 'North Carolina'), ('Winston-Salem', 'North Carolina'), ('Tulsa', 'Oklahoma'), ('Nashville', 'Tennessee'), ('Las Vegas', 'Nevada'), ('North Las Vegas', 'Nevada'), ('Chesapeake', 'Virginia'), ('Fresno', 'California'), ('Virginia Beach', 'Virginia'), ('Norfolk', 'Virginia'), ('San Jose', 'California'), ('Fremont', 'California'), ('Richmond', 'Virginia'), ('Wichita', 'Kansas'), ('San Francisco', 'California'), ('Oakland', 'California'), ('Stockton', 'California'), ('Lexington', 'Kentucky'), ('Louisville', 'Kentucky'), ('Sacramento', 'California'), ('St. Louis', 'Missouri'), ('Colorado Springs', 'Colorado'), ('Washington', 'District of Columbia'), ('Kansas City', 'Missouri'), ('Cincinnati', 'Ohio'), ('Baltimore', 'Maryland'), ('Reno', 'Nevada'), ('Aurora', 'Colorado'), ('Denver', 'Colorado'), ('Indianapolis', 'Indiana'), ('Columbus', 'Ohio'), ('Philadelphia', 'Pennsylvania'), ('Pittsburgh', 'Pennsylvania'), ('New York', 'New York'), ('Jersey City', 'New Jersey'), ('Newark', 'New Jersey'), ('Lincoln', 'Nebraska'), ('Fort Wayne', 'Indiana'), ('Omaha', 'Nebraska'), ('Cleveland', 'Ohio'), ('Toledo', 'Ohio'), ('Chicago', 'Illinois'), ('Boston', 'Massachusetts'), ('Detroit', 'Michigan'), ('Buffalo', 'New York'), ('Milwaukee', 'Wisconsin'), ('Madison', 'Wisconsin'), ('Boise', 'Idaho'), ('Saint Paul', 'Minnesota'), ('Minneapolis', 'Minnesota'), ('Portland', 'Oregon'), ('Seattle', 'Washington'), ('Spokane', 'Washington'), ('Anchorage', 'Alaska'), 
 
