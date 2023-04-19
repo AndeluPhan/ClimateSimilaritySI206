@@ -84,11 +84,11 @@ def calculateSimilaritiesByLatLon(cur, city, cosine_similarities):
     sorted_lon_diff = sorted(longitude_diff.items(), key=lambda x:x[1])
 
     f = open("calculated_data.txt", 'a')
-    f.write(f"\nCities with the closest latitude to {city}:\n")
+    f.write(f"\nCities with the closest latitude to {city} (Closest - Furthest):\n")
     for cities in sorted_lat_diff:
         f.write(f"{cities[0]}, ")
     
-    f.write(f"\n\nCities with the closest longitude to {city}:\n")
+    f.write(f"\n\nCities with the closest longitude to {city} (Closest - Furthest):\n")
     for cities in sorted_lon_diff:
         f.write(f"{cities[0]}, ")
     f.close()
@@ -125,6 +125,7 @@ def main():
     city = input("Enter a city: ")
     cosine_similarities = calculateRankings(cur, city)
     calculateSimilaritiesByLatLon(cur, city, cosine_similarities)
+    conn.close()
 
 
 if __name__ == '__main__':

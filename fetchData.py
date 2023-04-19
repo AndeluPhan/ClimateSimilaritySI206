@@ -188,12 +188,6 @@ def main():
     else:
         getCities(conn, cur)
 
-    
-
-    #cur.execute("DROP TABLE population")
-    #cur.execute("DROP TABLE climateData")
-
-
     conn.close()
 
 if __name__ == '__main__':
